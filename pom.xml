@@ -18,4 +18,10 @@
     </pluginManagement>
   </build>
 
+    <scm>
+        <connection>scm:git:file:///Users/vsasmry/mam3/01test</connection>
+        <developerConnection>scm:git:file:///Users/vsasmry/mam3/01test</developerConnection>
+        <url>file:///Users/vsasmry/mam3/01test</url>
+    </scm>
+
 </project>
