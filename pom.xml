@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>no.vps.mry</groupId>
   <artifactId>test-01</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.3-SNAPSHOT</version>
 
   <name>Testing Basic Stuff with Maven</name>
   <url>dilldall</url>
@@ -55,9 +55,9 @@
         </snapshotRepository>
     </distributionManagement>
     <scm>
-        <connection>scm:git:file:///Users/vsasmry/mam3/01test</connection>
-        <developerConnection>scm:git:file:///Users/vsasmry/mam3/01test</developerConnection>
-        <url>file:///Users/vsasmry/mam3/01test</url>
+        <connection>scm:git:file:///Users/vsasmry/mavstuff/simplehellotest</connection>
+        <developerConnection>scm:git:file:///Users/vsasmry/mavstuff/simplehellotest</developerConnection>
+        <url>file:///Users/vsasmry/mavstuff/simplehellotest</url>
       <tag>test-01-1.0.3</tag>
   </scm>
 
