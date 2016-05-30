@@ -55,10 +55,10 @@
         </snapshotRepository>
     </distributionManagement>
     <scm>
-        <connection>scm:git:file:///Users/vsasmry/mavstuff/simplehellotest</connection>
-        <developerConnection>scm:git:file:///Users/vsasmry/mavstuff/simplehellotest</developerConnection>
-        <url>file:///Users/vsasmry/mavstuff/simplehellotest</url>
+      <connection>scm:git:file://{project.basedir}</connection>
+      <developerConnection>scm:git:file://{project.basedir}</developerConnection>
+      <url>file://{project.basedir}</url>
       <tag>test-01-1.0.3</tag>
-  </scm>
+    </scm>
 
 </project>
