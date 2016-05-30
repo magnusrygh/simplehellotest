@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>no.vps.mry</groupId>
   <artifactId>simplehellotest</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.4-SNAPSHOT</version>
 
   <name>Testing Basic Stuff with Maven</name>
   <url>dilldall</url>
@@ -55,9 +55,9 @@
         </snapshotRepository>
     </distributionManagement>
     <scm>
-      <connection>scm:git:file://{project.basedir}</connection>
-      <developerConnection>scm:git:file://{project.basedir}</developerConnection>
-      <url>file://{project.basedir}</url>
+      <connection>scm:git:file://${project.basedir}</connection>
+      <developerConnection>scm:git:file://${project.basedir}</developerConnection>
+      <url>file://${project.basedir}</url>
       <tag>simplehellotest-1.0.4</tag>
     </scm>
 
